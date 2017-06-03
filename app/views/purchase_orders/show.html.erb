@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Product name:</strong>
+  <%= @purchase_order.product_name %>
+</p>
+
+<p>
+  <strong>Product type:</strong>
+  <%= @purchase_order.product_type %>
+</p>
+
+<p>
+  <strong>Unit price:</strong>
+  <%= @purchase_order.unit_price %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @purchase_order.quantity %>
+</p>
+
+<p>
+  <strong>Supplier name:</strong>
+  <%= @purchase_order.supplier_name %>
+</p>
+
+<p>
+  <strong>Supplier code:</strong>
+  <%= @purchase_order.supplier_code %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @purchase_order.date %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @purchase_order.location %>
+</p>
+
+<%= link_to 'Edit', edit_purchase_order_path(@purchase_order) %> |
+<%= link_to 'Back', purchase_orders_path %>

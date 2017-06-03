@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pro</title>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+  <header class="navbar navbar-fixed-top navbar-inverse">
+    <div class="navbar-inner">
+      <div class="container">
+
+        <h1>Welcome to the Sample App</h1>
+
+
+        <nav>
+          <ul class="nav pull-right">
+            <li><%= link_to "Home", '#' %></li>
+            <li><%= link_to "Managing System",  '#' %></li>
+            <li><%= link_to "Product list", '#' %></li>
+            <li><%= link_to "Supplier", '#' %></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <%= yield %>
+    </div>
+  <div class="center hero-unit">
+
+    </div>
+  <img alt="Rails" src="/assets/Ims.PNG" />
+  <img alt="Rails" src="/assets/pic2.png" />
+  <img alt="Rails" src="/assets/email.png" />
+  <img alt="Rails" src="/assets/Febu.jpg" />
+  <img alt="Rails" src="/assets/google.jpg" />
+  <img alt="Rails" src="/assets/googleplay.jpg" />
+
+  </body>
+</html>
